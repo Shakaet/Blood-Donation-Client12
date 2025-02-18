@@ -2,6 +2,7 @@ import { PostAdd } from "@mui/icons-material";
 
 
 const PageTitle = ({ text, subHeading }) => {
+    // pageTitle
     return (
         <div className="h-150 bg-transparent bg-gradient-to-bl from-red-50 to--900 ">
             <div className="text-center text-red-400 py-16">
