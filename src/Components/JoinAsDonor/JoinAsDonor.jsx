@@ -18,6 +18,8 @@ const JoinAsDonor = () => {
   };
 
   const handleSubmitAsDonor = async () => {
+
+    // donor section updated
     await axiosSecure
       .patch(`/user/donorReq/${userInfo?._id}`, userRequest)
       .then((res) => {
