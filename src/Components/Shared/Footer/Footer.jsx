@@ -4,7 +4,7 @@ import { blueGrey } from "@mui/material/colors";
 
 const Footer = () => {
     return (
-        <>
+        <div className="w-full">
             <Box display={"md:flex"} color={'primary.main'} justifyContent={"space-between"}
                 sx={{ textAlign: "center", bgcolor: blueGrey[800], color: 'primary.main', p: 3 }}>
 
@@ -49,7 +49,7 @@ const Footer = () => {
 
             </Box>
 
-        </>
+        </div>
     );
 };
 

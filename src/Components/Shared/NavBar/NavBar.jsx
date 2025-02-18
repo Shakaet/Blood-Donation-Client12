@@ -54,7 +54,7 @@ function NavBar() {
   };
 
   const menu = (
-    <>
+    <div>
       <ul className="flex gap-5 text-white">
         <li>
           <NavLink
@@ -96,7 +96,7 @@ function NavBar() {
           <JoinAsDonor />
         </li>
       </ul>
-    </>
+    </div>
   );
 
   return (
