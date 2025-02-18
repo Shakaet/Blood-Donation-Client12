@@ -13,6 +13,8 @@ import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
+
+  // banner section added attractively
   return <div style={{ backgroundImage: 'url(https://i.gifer.com/SOHy.gif)' }}
     className='grid bg-cover bg-opacity-100 grid-cols-1  md:grid-cols-2 gap-0 h-[650px] items-center   
   
