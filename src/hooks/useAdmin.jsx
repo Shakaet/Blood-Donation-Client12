@@ -4,6 +4,9 @@ import useAxiosSecure from "./useAxiosSecure";
 
 
 const useAdmin = () => {
+
+
+    // admin section
     const { user, loading } = useAuth()
     const axiosSecure = useAxiosSecure()
 

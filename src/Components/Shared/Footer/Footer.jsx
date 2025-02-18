@@ -3,8 +3,10 @@ import { Box, Typography } from "@mui/material";
 import { blueGrey } from "@mui/material/colors";
 
 const Footer = () => {
+
+    // footer section
     return (
-        <div className="w-full">
+        <div>
             <Box display={"md:flex"} color={'primary.main'} justifyContent={"space-between"}
                 sx={{ textAlign: "center", bgcolor: blueGrey[800], color: 'primary.main', p: 3 }}>
 
